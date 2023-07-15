@@ -7,6 +7,9 @@ await import("./src/env.mjs");
 /** @type {import("next").NextConfig} */
 const config = {
   reactStrictMode: true,
+  images: {
+    domains: ["content.sportslogos.net", "content.sportslogos.net", "www.basketball-reference.com"],
+  },
 
   /**
    * If you have `experimental: { appDir: true }` set, then you must comment the below `i18n` config
