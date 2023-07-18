@@ -15,7 +15,7 @@ interface SeasonSelectorProps {
 }
 
 export default function SeasonSelector({ defaultValue }: SeasonSelectorProps) {
-  const [value, setValue] = React.useState(defaultValue);
+  const [selectedSeason, setSelectedSeason] = React.useState<String>();
   return (
     <Select defaultValue={value}>
       <SelectTrigger>
