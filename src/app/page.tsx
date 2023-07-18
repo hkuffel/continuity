@@ -196,7 +196,7 @@ export default function Page() {
                   <ScrollArea>
                     <div className="flex">
                       <div className="my-auto flex min-w-[4rem] flex-col">
-                        <Image
+                        <img
                           src={
                             roster.teamObject?.logo ??
                             "https://www.basketball-reference.com/images/bbr/nba_150x150.png"
@@ -211,7 +211,7 @@ export default function Page() {
                           key={player.id}
                           className="my-auto flex min-w-[4rem] flex-col"
                         >
-                          <Image
+                          <img
                             src={
                               "https://www.basketball-reference.com/images/headshots/" +
                               player.id +
